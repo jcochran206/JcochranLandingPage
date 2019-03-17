@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+/* navbar */
+.nav li {
+  display: inline-block;
+  margin-left: 2rem;
+}
+
+.nav li a:link, .main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .75rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.nav li a:hover, .main-nav li a:active {
+  border-bottom: 2px solid #e67322;
+}
