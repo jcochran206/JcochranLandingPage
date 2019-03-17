@@ -15,12 +15,15 @@ body {
   overflow-x: hidden;
 }
 /* navbar */
+.navbar {
+  background-color: #343434;
+}
 .nav li {
   display: inline-block;
   margin-left: 2rem;
 }
 
-.nav li a:link, .main-nav li a:visited {
+.nav li a:link, .nav li a:visited {
   padding: 8px 0;
   color: #fff;
   text-decoration: none;
@@ -30,6 +33,30 @@ body {
   transition: border-bottom 0.2s;
 }
 
-.nav li a:hover, .main-nav li a:active {
-  border-bottom: 2px solid #e67322;
+.nav li a:hover, .nav li a:active {
+  border-bottom: 2px solid #fde9c9;
+}
+/* Sections */
+
+.hero-section {
+background-image: linear-gradient(rgba(255,255,0,0.3), rgba(192,192,192,0.2)), url(../img/art.jpg);
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+height: 100vh;
+}
+
+.hero-section h1{
+  color: #fde9c9;
+}
+.hero-section p {
+  color: #fff;
+}
+
+.hero-text-box {
+ position: absolute;
+ width: 1140px;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
 }
