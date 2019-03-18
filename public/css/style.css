@@ -15,8 +15,8 @@ body {
   overflow-x: hidden;
 }
 /* navbar */
-.navbar {
-  background-color: #343434;
+.navbar2 {
+  background-color: #1d1919;
 }
 .nav li {
   display: inline-block;
@@ -34,12 +34,17 @@ body {
 }
 
 .nav li a:hover, .nav li a:active {
-  border-bottom: 2px solid #fde9c9;
+  border-bottom: 2px solid #ffce76;
+}
+/* buttons */
+.btn-hero {
+  background-color: #ffce76;
+  color: #fff;
 }
 /* Sections */
 
 .hero-section {
-background-image: linear-gradient(rgba(255,255,0,0.3), rgba(192,192,192,0.2)), url(../img/art.jpg);
+background-image: linear-gradient(rgba(0,0,0,0.3), rgba(192,192,192,0.2)), url(../img/bmwracer.jpg);
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
@@ -47,7 +52,7 @@ height: 100vh;
 }
 
 .hero-section h1{
-  color: #fde9c9;
+  color: #ffce76;
 }
 .hero-section p {
   color: #fff;
@@ -59,4 +64,15 @@ height: 100vh;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
+}
+
+
+
+/* footer */
+.footer-nav {
+  background-color: #1d1919;
+  padding: 40px;
+  font-size: 80%;
+  color: #fff;
+  text-align: center;
 }

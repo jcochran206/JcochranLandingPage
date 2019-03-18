@@ -1,11 +1,40 @@
-<%- include("partials/header"); -%>
-<div class="hero-section">
-  <div class="hero-text-box">
-    <h1>Full Stack Engineer</h1>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-  </div>
-</div>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Jonathan Cochran</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="hero-section">
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <p class="navbar-brand"> <img src="../img/bp-mask.png" alt="black panther mask"> </p>
+        </div>
+        <ul class="nav">
+          <li id="home"><a href="/">HOME</a></li>
+          <li id="about"><a href="/about">ABOUT</a></li>
+          <li id="contact"><a href="/project">PROJECT</a></li>
+          <li id="contact"><a href="/contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
 
 
+    <div class="hero-section-text">
+      <div class="hero-text-box">
+        <h1>Full Stack Engineer</h1>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+          specimen book</p>
+        <a href="#" class="btn btn-hero">learn more</a>
+      </div>
+    </div>
+  </header>
 
-<%- include("partials/footer"); -%>
+
+  <%- include("partials/footer"); -%>
