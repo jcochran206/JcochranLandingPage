@@ -83,6 +83,8 @@ h2:after{
 .title{
   text-align: center;
   color: #0075f6;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 /* Sections */
 
@@ -111,6 +113,10 @@ height: 100vh;
 
 .learn-more{
   background-color: #f6f5f5;
+  text-align: center;
+}
+.calltoact{
+  background-color: #040404;
 }
 
 /* about section */
