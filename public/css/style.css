@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 
+
 html,
 body {
   background-color: #fff;
@@ -115,9 +116,16 @@ height: 100vh;
   background-color: #f6f5f5;
   text-align: center;
 }
-.calltoact{
+
+
+.calltoact {
   background-color: #040404;
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 
 /* about section */
 .about{
