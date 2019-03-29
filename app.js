@@ -28,6 +28,11 @@ app.get('/project', function(req, res){
 app.get('/contact', function(req, res){
   res.render("contact");
 });
+
+app.get('/secrets', function(req, res){
+
+  res.render("secrets");
+});
 ////////////////// app listening on port //////////////////////////
 app.listen(port, function(){
   console.log(`server started and is listening on ${port}`);
